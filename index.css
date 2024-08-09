@@ -1,0 +1,382 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-conatiner{
+    background-color: rgb(41, 83, 41);
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: rgb(162, 196, 155);
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 15px;
+    border: 1px solid rgb(112, 124, 94);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgb(167, 185, 132);
+}
+.nav-item a:hover{
+    /* color: rgb(20, 219, 20); */
+    color:  rgb(27, 32, 24);
+    background-color: greenyellow;;
+    font-weight: 600;
+}
+.navbar-brand{
+    height: 60px;
+    width: 100px;
+}
+/* .navbar-brand a{
+    transition: .8s;
+}
+.navbar-brand a:hover{
+    transform: scale(0.8);
+} */
+.logo:hover{
+    color:  rgb(189, 247, 163);
+}
+.search{
+    height: 45px;
+    outline: none;
+    color:  rgb(189, 247, 163);
+    border: 1.5px solid rgb(189, 247, 163);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(189, 247, 163);
+    color: rgb(7, 36, 7);
+    border-radius: 0px 20px 20px 0px;
+    transition: 0.4s;
+}
+.btn1:hover{
+    background-color:  rgb(161, 255, 118);
+}
+/* .bi-bag-heart-fill{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.bi-bag-heart-fill:hover{
+    color:rgb(20, 219, 20);
+} */
+.navbar-toggler{
+    font-size: 23px;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(189, 247, 163);
+    background-color: transparent;
+}
+.navbar-toggler:hover{
+    border: 1px solid rgb(189, 247, 163);
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.main{
+    background: url("./assets/images/bg-3.jpg")no-repeat;
+    color: rgb(189, 247, 163);
+    background-size: cover;
+    height: 98vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 5ream;
+}
+.main p:nth-child(1){
+    font-size: 10px;
+    font-weight: 500;
+}
+.main p:nth-child(2){
+    font-size: 10px;
+    font-weight: 500;
+}
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+}
+.mbtn1:hover{
+    background-color: rgb(19, 189, 19);
+}
+.mbtn2{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    color: rgb(20, 219, 20);
+    background-color: transparent;
+    border: 1px solid rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.mbtn2:hover{
+    background-color: rgb(19, 189, 19);
+    border: none;
+    color: white;
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background-color: rgb(20, 219, 20);
+    display: inline-block;
+}
+/* about */
+.about{
+    background: url("./assets/images/about.jpg")no-repeat;
+    background-size: normal;
+    height: 75vh;
+    width: 100%;
+}
+.about:hover{
+    background-color: rgb(189, 247, 163);
+}
+/* cards */
+
+.card-body-text{
+    color: rgb(7, 36, 7);
+
+}.welcome{
+    background-color: rgb(41, 83, 41);
+    color:  rgb(189, 247, 163);
+}
+.about-line{
+    height: 2px;
+    width: 80%;
+    background-color: rgb(96, 168, 68);
+    display: inline-block;  
+    color: lightgreen;  
+}
+.welcome h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.welcome .card{
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color:  rgb(189, 247, 163);
+
+}
+.welcome i{
+    font-size: 45px;
+    color: rgb(41, 83, 41);
+}
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+/* Product */
+.product{
+    background-color: rgb(189, 247, 163);
+    
+}
+.about-line1{
+    height: 2px;
+    width: 80%;
+    background-color:  rgb(41, 83, 41);
+    display: inline-block;    
+}
+.star{
+    text-align: right;
+    color: orangered;
+}
+.product .card{
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+}
+.product .card-body{
+    border: 1px solid rgb(214, 214, 214);
+}
+.product .card-body .star{
+    color: orange;
+}
+.fruit-name{
+    font-weight: 400;
+    margin: 0;
+}
+.fruit-price{
+    color: gray;
+}
+.button-fruit{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: 0.4s;
+}
+.button-fruit:hover{
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
+.card-img-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* discount */
+.discount{
+    background-color:  rgb(118, 180, 100);
+    color: white;
+}
+.discount-coupon{
+    height: 40px;
+    width: 40px;
+    color: white;
+}
+.discount-text{
+    color: rgb(41, 83, 41);
+}
+.discount-button{   
+    height: 50px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: 0.4s;
+}
+.discount-button:hover{
+    background-color: rgb(253, 238, 211);
+}
+/* store */
+.store{
+    background-color: rgb(44, 68, 39);
+    color: rgb(189, 247, 163);
+}
+.store h1{
+    font-size: 5ream;
+}
+.store p:nth-child(1){
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.store p:nth-child(2){
+    font-size: 10px;
+    font-weight: 500;
+    
+}
+.store .card{
+    border-radius: 12px;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.store .card:hover{
+    background-color: rgb(189, 247, 163);
+    color: white;
+}
+.store .card:hover .para1{
+    color:  rgb(41, 83, 41);
+}
+/* bets seller */
+.seller{
+    background-color: rgb(200, 250, 178);
+}
+.seller h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(44, 68, 39);
+}
+.seller i{
+    color: orange;
+}
+.seller .card{
+    border-radius: 12px;
+    border: none;
+    background-color:  rgb(161, 255, 118);
+}
+/* contact us */
+.contact{
+    background-image: url("./assets/images/contact\ bg1.jpg");
+    background-size: cover;
+    /* background-color: rgb(44, 68, 39); */
+    color: rgb(161, 255, 118);
+}
+.card-contact{
+    /* color:  rgb(161, 255, 118); */
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 20px 10px;
+}
+/* .contact-content{
+    color:  rgb(44, 68, 39);
+} */
+.contact-content-span input,
+.contact-email-span input
+{
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    width: 50%;
+}
+.contact-content-span input,
+.contact-email-span input,
+.contact-message-span input
+{
+    background-color: rgb(183, 250, 151);
+}
+.contact-message-span input{
+    border-radius: 6px;
+    border: none;
+    padding: 40px;
+    width: 50%;
+    height: 50%;
+    background-color: (161, 255, 118);
+}
+/* .contact-actions button{
+    transition: .8s;
+}
+.contact-actions button:hover{
+    transform: scale(0.8);
+} */
+.footer-icon{
+    background-color:  rgb(183, 250, 151);
+    color: black;
+    padding: 5px 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%;
+}
+.designed-by{
+    font-size: 14px;
+}
+.image-container{
+    position: relative;
+}
+.image-container span{
+    position: absolute;
+    background-color: orangered;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
